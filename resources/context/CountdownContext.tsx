@@ -68,7 +68,7 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
                 finished,
                 StartCountdown,
                 ResetCountdown
-            }}s>
+            }}>
             {children}
         </CountdownContext.Provider>
     )
